@@ -1,10 +1,121 @@
-<html xmlns="http://www.w3.org/1999/xhtml">
-	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-		<title>XML Metadata</title>
-	</head>
-	<frameset cols="20%,80%">
-		<frame name="list" src="list.html">
-		<frame name="details" src="details.html">
-	</frameset>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+</head>
+<body style="background-color: aqua;" style="color: darkslategray;">
+    <form>
+        <center>
+    <h1>About Form and Types</h1>
+    </center>
+    <fieldset> 
+        <legend>text type</legend>
+    <lable for="name" >Enter your name</lable>
+    <input id="name" type="text" placeholder="Enter your name hear hear..." name="name" required>
+   
+     </fieldset>
+      <fieldset> 
+        <legend>password type</legend>
+    <lable for="pwd" >Password:</lable>
+    <input id="pwd" type="password" required >
+    
+     </fieldset>
+      <fieldset> 
+        <legend>number type</legend>
+    <lable>Age:</lable>
+    <input type="number" min="1" max="150" name="age" >
+    
+    </fieldset>
+     <fieldset> 
+        <legend>date time-local type</legend>
+    <lable>date of joining:</lable>
+    <input type="datetime-local" >
+     </fieldset>
+      <fieldset> 
+        <legend> time type</legend>
+    <lable>time of birth</lable>
+    <input type="time" >
+   </fieldset>
+    <fieldset> 
+        <legend>url type</legend>
+    <lable>URL:</lable>
+    <input type="url">
+      </fieldset>
+       <fieldset> 
+        <legend>email type</legend>
+    <lable>Email:</lable>
+    <input type="email" name="email" >
+     </fieldset>
+      <fieldset> 
+        <legend>checkbox type</legend>
+    <lable>
+        <input type="checkbox" name="opt1" value="html" > Html
+    </lable>
+    <lable>
+        <input type="checkbox" name="opt1" value="css"> CSS
+    </lable>
+    <lable>
+        <input type="checkbox" nmae="opt3" value="js"> JS
+    </lable>
+    </fieldset>
+     <fieldset> 
+        <legend>radio type</legend>
+    <lable>
+        <input type="radio" name="gender" value="male">Male
+    </lable>
+    <lable>
+        <input type="radio" name="gender" value="female">Female
+        </fieldset>
+         <fieldset> 
+        <legend>range type</legend>
+       <lable>rate 1 to 5 for my wesite</lable> 
+        <input type="range" min="1" max="10" value="rating">
+       </fieldset>
+        <fieldset> 
+        <legend>file type</legend>
+       <lable>Uplode resume</lable>
+       <input type="file" accept=".pdf,.js,.doc">
+       </fieldset>
+        <fieldset> 
+        <legend>hidden type</legend>
+       <lable>hidden</lable>
+       <input type="hidden">
+       </fieldset>
+        <fieldset> 
+        <legend>searchtype</legend>
+       <input type="search" >
+       </fieldset>
+       <fieldset> 
+        <legend>date timetype</legend>
+       <lable>date time</lable>
+       <input type="datetime" >
+        </fieldset>
+         <fieldset> 
+        <legend>weektype</legend>
+       <lable>week time</lable>
+       <input type="week" >
+        </fieldset>
+         <fieldset> 
+        <legend>month etype</legend>
+       <lable>month time</lable>
+       <input type="month" >
+        </fieldset>
+         <fieldset> 
+        <legend>tel type</legend>
+       <lable></lable>
+       <input type="tel" >
+        </fieldset>
+
+
+
+
+
+
+    </lable>
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
+    </form>
+</body>
 </html>
